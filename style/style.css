@@ -33,6 +33,25 @@ section#phone {
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
 
+section#social-media img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.525);
+    box-sizing: border-box;
+}
+
+section#social-media {
+    text-align: right;
+}
+
+section#social-media img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.532);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.605);
+    transition: transform 0.3s;
+}
+
 iframe#screen {
     position: relative;
     top: 80px;
